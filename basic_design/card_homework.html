@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,700;1,400&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Rubik', sans-serif;
+        }
+
+        .dot_card {
+            margin: 20px;
+            width: 25%;
+            /* border: 1px solid black; */
+            border-radius: 10%;
+            padding: 15px;
+            box-shadow: #777C85;
+            box-shadow: 1px 3px 3px rgba(34, 33, 33, 0.226);
+        }
+
+        .dot_card img {
+            width: 100%;
+            border-radius: 25px 25px 25px 25px;
+        }
+        .dot_card h2{
+            font-size: 20px;
+        }
+        .dot_card hr{
+            width: 250px;
+            border: 1px solid black;
+            border-color:#ededed;
+            margin-top: 5%;
+        }
+        .dot_card .d_price{
+            display: inline;
+            padding-top: 5%;
+        }
+        .d_price{
+           color: blue;
+        }
+        .price{
+            opacity: 50%;
+            margin-left: 5%;
+        }
+        .d_percentage{
+            background-color: aqua;
+            border-radius: 5px;
+            padding: 0.5em;
+            font-size: 85%;
+            margin-left: 5%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="dot_card">
+        <img src="/basic_design/img_2.jpg" alt="Dot Image">
+        <h2>Web Development Master Course @dot Batch</h2>
+        <hr><br>
+        <span class="d_price">&#8377;4500</span>
+        <span class="price"><del>&#8377;6500</del></span>
+        <span class="d_percentage">45%off</span>
+    </div>
+</body>
+
+</html>
