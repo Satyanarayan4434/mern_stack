@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.image{
+    background-image: url("/basic_design/Assets/img_2.jpg");
+    background-repeat: no-repeat;
+    height: 30rem;
+}
+.heading_1{
+    color: white;
+    width: fit-content;
+    display: flex;
+}
+.heading_1 #h1{
+    background-color: aqua;
+    margin-left: 4px;
+}
+.heading_1 #h2{
+    background-color: aqua;
+    margin-left: 32em;
+}
+.heading_3{
+    color: white;
+    width: fit-content;
+    transform: translate(320px, 170px);
+    background-color: brown;
+}
+.heading_4{
+    color: white;
+    width: fit-content;
+    display: flex;
+}
+.heading_4 #h4{
+    background-color: blue;
+    transform: translate(2px, 382px);
+}
+.heading_4 #h5{
+    background-color: blue;
+    transform: translate(605px, 382px);
+}
